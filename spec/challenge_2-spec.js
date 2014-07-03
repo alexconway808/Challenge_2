@@ -4,7 +4,7 @@ describe("Sum of even numbers in the fibonnaci sequence", function () {
   
   it("should return '10' for n=10", function () {
     var sum = challenge_2.sumOfEvenFibonacciNumbers(10);
-    expect(10).toBe(sum);
+    expect(sum).toBe(10);
   });
 
   // when your tests pass, uncomment the next test and
